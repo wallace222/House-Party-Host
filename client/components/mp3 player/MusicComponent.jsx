@@ -3,10 +3,17 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 
-export default function Mp3footer (props) {
+
+export default function MusicCompoent(props) {
     return (
         <>
-        <h1>Mp3footer</h1>
+
+
+        {/* the goal for today for myself is to get all the other components for music to sit in this one. */}
+
+        <h1> This is the music component </h1>
+
+        
         </>
     )
 }
