@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: montserrat;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    width: 800px;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.graphics img {
+    border-radius: 8px;
+    box-shadow: 0 0 3px 0px #777777b8;
+    height: 300px;
+    width: 400px;
+}
+
+.graphics {
+    padding: 15px 0px;
+}
+
+header h3 {
+    font-weight: normal;
+    margin: 0;
+    padding: 5px;
+}
+
+.actions {
+    padding: 10px;
+    background: #e3e3e3;
+`   display: flex;
+    flex-direction: row;
+    border-radius: 3px;
+}
+
+.actions button {
+    background: none;
+    border: none;
+    color: white;
+    -webkit-user-select: none;
+}
+
+/* keep copying off of this guy and tweak his stuff to try and stylize the project for your own personal use
+https://www.youtube.com/watch?v=f9SEs7UhFBs */
