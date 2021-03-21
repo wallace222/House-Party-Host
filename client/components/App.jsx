@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import { HashRouter as Router, Route } from 'react-router-dom'
 
-import Home from './Home'
 import MusicCompoent from './mp3 player/MusicComponent'
+
+import Home from './Home'
 import Login from './Login'
 import Navbar from './Navbar'
+import Profile from './Profile'
 import Register from './Register'
 
 //styling
